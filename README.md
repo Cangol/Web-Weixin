@@ -1,5 +1,5 @@
-# Web-Weixin
-[![Web-Weixin](http://dockeri.co/image/cangol/Web-Weixin)](https://hub.docker.com/r/cangol/Web-Weixin/)
+# web-weixin
+[![web-weixin](http://dockeri.co/image/cangol/web-weixin)](https://hub.docker.com/r/cangol/web-weixin/)
 
 ## Included
 * OpenJDK 8
