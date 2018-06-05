@@ -17,3 +17,5 @@ RUN cpanm Mojo::Weixin
 
 EXPOSE 5000
 VOLUME /tmp
+
+CMD perl -MMojo::Weixin -e 'Mojo::Weixin->new(log_encoding=>"utf8")->load(["ShowMsg","UploadQRcode"])->load("Openwx",data=>{listen =>[{host=>"0.0.0.0",port=>5000}]})->run()'
