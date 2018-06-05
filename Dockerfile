@@ -14,7 +14,6 @@ RUN apt-get install libcrypt-openssl-bignum-perl libcrypt-openssl-rsa-perl
 
 RUN cpan -i App::cpanminus
 RUN cpanm Mojo::Weixin
-RUN cpanm Weixin::Encryption
 
 EXPOSE 5000
 VOLUME /tmp
