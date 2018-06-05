@@ -7,5 +7,5 @@
 ## Build image
 
 ```bash
-docker build -t cangol/android-gradle .
+docker build -t cangol/web-weixin .
 ```
